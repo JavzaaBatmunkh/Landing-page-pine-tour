@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 240px;
+    align-items: center;
+    background-color: #F4F4F4;
+    font-family: Montserrat;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    padding: 19px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 {
+    width: 1200px;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+#packs {
+    display: flex;
+}
+
+.d {
+    width: 56px;
+    height: 56px;
+    border-radius: 40px;
+    background-color: #1D1F24;
+    color: #16A94A;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20.72px;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.dashed {
+    border-left: #000000 dotted;
+    width: 1mm;
+    height: 39.8px;
+    margin-left: 28.5px;
+}
+
+#container-location {
+    display: flex;
+    gap: 20px;
+}
+
+.destination {
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #000000
+}
+
+.aimag {
+    width: 68px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #777777;
+}
+
+#location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxes {
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#starterpack {
+    width: 285px;
+    height: 370px;
+    border: 2px solid none;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+#luxurypack {
+    width: 285px;
+    height: 370px;
+    border: 2px solid none;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    padding: 40px;
+
+}
+
+#map img {
+    border-radius: 24px;
+}
+
+#ready {
+    background-color: #171717;
+    text-align: center;
+    align-content: center;
+    height: 393px;
+    width: 100%;
+}
+
+#links {
+    background-color: #101010;
+    height: 228px;
+    border: 1px 0px 0px 0px;
+    padding: 80px 120px 80px 120px;
+    text-align: center;
+    align-content: center;
+}
+
+
+footer {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 72px;
+    line-height: 87.77px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #ABABAB;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 80px;
+    margin-top: 10px;
+    color: #303030;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+ul {
+    color: #777777;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #303030;
+    margin-bottom: 28px;
+}
+
+div div div a button {
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 167px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #303030;
+    align-items: center;
+    align-content: center;
+    border: none;
+}
+
+#ready button {
+    background-color: #18BA51;
+    width: 130px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#container-d>p {
+    color: #ABABAB;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#ready p {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39.01px;
+}
+
+#packs p {
+    font-size: 32px;
+    line-height: 39.01px;
+    font-weight: 700;
+    text-align: right;
+
+}
+
+
+
+#links>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p {
+    margin: 0;
+}
+
+#starterpack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#luxurypack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#links button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 21.94px;
+    font-weight: 700;
+}
+
+#links div div {
+    display: flex;
+    gap: 20px;
+}
+
+#section3 h3 {
+    text-align: center;
+}
+
+#luxurypack:hover {
+    border: 2px solid #18BA51;
+}
+
+#links a {
+    text-decoration: none;
+}
